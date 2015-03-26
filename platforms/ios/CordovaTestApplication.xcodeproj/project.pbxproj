@@ -69,6 +69,7 @@
 		7CCE9B90B5F549B08CD110A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EB9A805F6247AB82E8AEF6 /* CoreMotion.framework */; };
 		BDC1D9014FC24C959BAED6B5 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FB9ACB78F4FB594BCCC40 /* CDVNotification.m */; };
 		CFC69C86B23147108DD6A6CE /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E87A73DFAB6943C798074B71 /* CDVNotification.bundle */; };
+		E83796D1562545E8A2FABAE7 /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A14CDB13CA41FAA272AD96 /* CDVSound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +187,8 @@
 		9F3FB9ACB78F4FB594BCCC40 /* CDVNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVNotification.m"; path = "org.apache.cordova.dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		DF8AF800794B486DA0B2E04D /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		E87A73DFAB6943C798074B71 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
+		18A14CDB13CA41FAA272AD96 /* CDVSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSound.m"; path = "org.apache.cordova.media/CDVSound.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4625FF9102DD42EA84B7042B /* CDVSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSound.h"; path = "org.apache.cordova.media/CDVSound.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +346,8 @@
 				9B87FCF8426A493098E37AC1 /* CDVAccelerometer.h */,
 				9F3FB9ACB78F4FB594BCCC40 /* CDVNotification.m */,
 				DF8AF800794B486DA0B2E04D /* CDVNotification.h */,
+				18A14CDB13CA41FAA272AD96 /* CDVSound.m */,
+				4625FF9102DD42EA84B7042B /* CDVSound.h */,
 			);
 			name = Plugins;
 			path = "CordovaTestApplication/Plugins";
@@ -550,6 +555,7 @@
 				00A6F3F660344345AF9B8AD2 /* CDVGlobalization.m in Sources */,
 				5391685FA6FF415680552B66 /* CDVAccelerometer.m in Sources */,
 				BDC1D9014FC24C959BAED6B5 /* CDVNotification.m in Sources */,
+				E83796D1562545E8A2FABAE7 /* CDVSound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
