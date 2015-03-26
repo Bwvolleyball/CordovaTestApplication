@@ -290,6 +290,20 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
+        "id": "org.apache.cordova.media.MediaError",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/Media.js",
+        "id": "org.apache.cordova.media.Media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -453,6 +467,7 @@ module.exports.metadata =
     "org.apache.cordova.globalization": "0.3.5-dev",
     "org.apache.cordova.device-motion": "0.2.12-dev",
     "org.apache.cordova.dialogs": "0.3.1-dev",
+    "org.apache.cordova.media": "0.2.17-dev",
     "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA
