@@ -373,6 +373,41 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.device-orientation/www/CompassError.js",
+        "id": "org.apache.cordova.device-orientation.CompassError",
+        "clobbers": [
+            "CompassError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/CompassHeading.js",
+        "id": "org.apache.cordova.device-orientation.CompassHeading",
+        "clobbers": [
+            "CompassHeading"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/compass.js",
+        "id": "org.apache.cordova.device-orientation.compass",
+        "clobbers": [
+            "navigator.compass"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.dialogs/www/notification.js",
+        "id": "org.apache.cordova.dialogs.notification",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.dialogs/www/android/notification.js",
+        "id": "org.apache.cordova.dialogs.notification_android",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.media/www/MediaError.js",
         "id": "org.apache.cordova.media.MediaError",
         "clobbers": [
@@ -384,6 +419,21 @@ module.exports = [
         "id": "org.apache.cordova.media.Media",
         "clobbers": [
             "window.Media"
+        ]
+    },
+    {
+        "file": "plugins/com.admob.google/www/admob.js",
+        "id": "com.admob.google.AdMobAds",
+        "clobbers": [
+            "window.admob",
+            "window.tappx"
+        ]
+    },
+    {
+        "file": "plugins/com.connectivity.monitor/www/connectivity.js",
+        "id": "com.connectivity.monitor.connectivity",
+        "clobbers": [
+            "window.connectivity"
         ]
     }
 ];
@@ -404,7 +454,13 @@ module.exports.metadata =
     "org.apache.cordova.network-information": "0.2.16-dev",
     "org.apache.cordova.splashscreen": "1.0.1-dev",
     "org.apache.cordova.vibration": "0.3.14-dev",
-    "org.apache.cordova.media": "0.2.17-dev"
+    "org.apache.cordova.device-orientation": "0.3.12-dev",
+    "org.apache.cordova.dialogs": "0.3.1-dev",
+    "org.apache.cordova.media": "0.2.17-dev",
+    "com.admob.google": "2.0.13",
+    "com.connectivity.monitor": "1.1.0",
+    "android.support.v4": "1.0.0",
+    "com.google.play.services": "22.0.0"
 }
 // BOTTOM OF METADATA
 });

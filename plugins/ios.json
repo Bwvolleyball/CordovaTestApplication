@@ -73,7 +73,19 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Compass\"><param name=\"ios-package\" value=\"CDVCompass\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Media\"><param name=\"ios-package\" value=\"CDVSound\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"connectivity\"><param name=\"ios-package\" value=\"CDVAppFeelReachability\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AdMobAds\"><param name=\"ios-package\" value=\"CDVAdMobAds\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -85,6 +97,10 @@
                         {
                             "xml": true,
                             "count": 2
+                        },
+                        {
+                            "xml": false,
+                            "count": 1
                         }
                     ],
                     "CoreGraphics.framework": [
@@ -102,7 +118,7 @@
                     "CoreLocation.framework": [
                         {
                             "xml": false,
-                            "count": 2
+                            "count": 3
                         }
                     ],
                     "AssetsLibrary.framework": [
@@ -133,9 +149,61 @@
                         {
                             "xml": true,
                             "count": 1
+                        },
+                        {
+                            "xml": false,
+                            "count": 2
                         }
                     ],
                     "CoreMotion.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "AdSupport.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "AVFoundation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreFoundation.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "CoreTelephony.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "MessageUI.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "StoreKit.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "EventKit.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "EventKitUI.framework": [
                         {
                             "xml": false,
                             "count": 1
@@ -198,12 +266,24 @@
         "org.apache.cordova.dialogs": {
             "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
         },
+        "org.apache.cordova.device-orientation": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "com.admob.google": {
             "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
         }
     },
     "dependent_plugins": {
         "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "com.connectivity.monitor": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "com.ios.libgoogleadmobads": {
             "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
         }
     }

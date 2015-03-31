@@ -57,7 +57,23 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Compass\"><param name=\"android-package\" value=\"org.apache.cordova.deviceorientation.CompassListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"connectivity\"><param name=\"android-package\" value=\"com.appfeel.cordova.connectivity.Connectivity\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AdMobAds\"><param name=\"android-package\" value=\"com.appfeel.cordova.admob.AdMobAds\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -84,11 +100,11 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
@@ -100,7 +116,7 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-                            "count": 1
+                            "count": 3
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
@@ -109,11 +125,25 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 2
                         }
                     ],
                     "/manifest": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<meta-data android:name=\"com.google.android.gms.version\" android:value=\"@integer/google_play_services_version\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" android:name=\"com.google.android.gms.ads.AdActivity\" android:theme=\"@android:style/Theme.Translucent\" />",
                             "count": 1
                         }
                     ]
@@ -164,9 +194,28 @@
         "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
         },
+        "org.apache.cordova.device-orientation": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "com.admob.google": {
             "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "com.connectivity.monitor": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "android.support.v4": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        },
+        "com.google.play.services": {
+            "PACKAGE_NAME": "com.coolappz.CordovaTestApplication"
+        }
+    }
 }

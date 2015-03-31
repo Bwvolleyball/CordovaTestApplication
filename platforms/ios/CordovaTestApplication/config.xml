@@ -71,7 +71,16 @@
     <feature name="Notification">
         <param name="ios-package" value="CDVNotification" />
     </feature>
+    <feature name="Compass">
+        <param name="ios-package" value="CDVCompass" />
+    </feature>
     <feature name="Media">
         <param name="ios-package" value="CDVSound" />
+    </feature>
+    <feature name="connectivity">
+        <param name="ios-package" value="CDVAppFeelReachability" />
+    </feature>
+    <feature name="AdMobAds">
+        <param name="ios-package" value="CDVAdMobAds" />
     </feature>
 </widget>

@@ -290,6 +290,49 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.device-orientation/www/CompassError.js",
+        "id": "org.apache.cordova.device-orientation.CompassError",
+        "clobbers": [
+            "CompassError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/CompassHeading.js",
+        "id": "org.apache.cordova.device-orientation.CompassHeading",
+        "clobbers": [
+            "CompassHeading"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/compass.js",
+        "id": "org.apache.cordova.device-orientation.compass",
+        "clobbers": [
+            "navigator.compass"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
+        "id": "org.apache.cordova.media.MediaError",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/Media.js",
+        "id": "org.apache.cordova.media.Media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
+        "file": "plugins/com.admob.google/www/admob.js",
+        "id": "com.admob.google.AdMobAds",
+        "clobbers": [
+            "window.admob",
+            "window.tappx"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -434,6 +477,13 @@ module.exports = [
             "cordova"
         ],
         "runs": true
+    },
+    {
+        "file": "plugins/com.connectivity.monitor/www/connectivity.js",
+        "id": "com.connectivity.monitor.connectivity",
+        "clobbers": [
+            "window.connectivity"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -453,7 +503,12 @@ module.exports.metadata =
     "org.apache.cordova.globalization": "0.3.5-dev",
     "org.apache.cordova.device-motion": "0.2.12-dev",
     "org.apache.cordova.dialogs": "0.3.1-dev",
-    "org.apache.cordova.file": "1.3.3"
+    "org.apache.cordova.device-orientation": "0.3.12-dev",
+    "org.apache.cordova.media": "0.2.17-dev",
+    "com.admob.google": "2.0.13",
+    "org.apache.cordova.file": "1.3.3",
+    "com.connectivity.monitor": "1.1.0",
+    "com.ios.libgoogleadmobads": "1.1.1"
 }
 // BOTTOM OF METADATA
 });
